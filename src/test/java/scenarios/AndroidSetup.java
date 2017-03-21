@@ -19,7 +19,7 @@ public class AndroidSetup {
     AppiumDriverLocalService service;
 
     protected static void prepareAndroidForAppium() throws MalformedURLException {
-        String path = "/Users/dyned/Documents/NND/Test/tutorial/projects/testAppium/apps/";
+        String path = "/Users/dyned/Documents/NND/Test/testAppium/apps/";
         File appDir = new File(path);
         File app = new File(appDir, "flipkart.apk");
         DesiredCapabilities capabilities = new DesiredCapabilities();
