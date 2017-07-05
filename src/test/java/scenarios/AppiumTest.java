@@ -37,9 +37,11 @@ public class AppiumTest extends AndroidSetup {
 
     @Test
     public void testClickNumberField() {
-        WebElement permissionAllow;
-        permissionAllow = wait.until(ExpectedConditions.elementToBeClickable(By.id(pkgInstaller + permissionAllowButton)));
-        permissionAllow.click();
+        if (platformVersion > 5.1) {
+            WebElement permissionAllow;
+            permissionAllow = wait.until(ExpectedConditions.elementToBeClickable(By.id(pkgInstaller + permissionAllowButton)));
+            permissionAllow.click();
+        }
 
         WebElement numberFields;
         numberFields = wait.until(ExpectedConditions.elementToBeClickable(By.id(pkgName + "mobileNo")));

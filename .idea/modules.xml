@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/testAppium.iml" filepath="$PROJECT_DIR$/.idea/modules/testAppium.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/testAppium_main.iml" filepath="$PROJECT_DIR$/.idea/modules/testAppium_main.iml" group="testAppium" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/testAppium_test.iml" filepath="$PROJECT_DIR$/.idea/modules/testAppium_test.iml" group="testAppium" />
     </modules>
   </component>
 </project>

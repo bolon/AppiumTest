@@ -14,7 +14,7 @@ import java.net.URL;
  * Created by dyned on 3/10/17.
  */
 public class AndroidSetup {
-
+    static int platformVersion = 4;
     static AndroidDriver driver;
     AppiumDriverLocalService service;
 
@@ -28,7 +28,7 @@ public class AndroidSetup {
         //mandatory capabilities
         capabilities.setCapability("deviceName", "Android");
         capabilities.setCapability("platformName", "Android");
-        capabilities.setCapability("platformVersion", "5.1");
+        capabilities.setCapability("platformVersion", String.valueOf(platformVersion) + ".4.2");
 
         //set dangerous permission (find dynamic ways)
         //capabilities.setCapability("autoGrantPermission", "true");

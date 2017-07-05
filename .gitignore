@@ -38,6 +38,8 @@ captures/
 .idea/tasks.xml
 .idea/gradle.xml
 .idea/libraries
+.idea/copyright/
+.idea/runConfigurations.xml
 
 # Keystore files
 *.jks
@@ -47,3 +49,5 @@ captures/
 
 # Google Services (e.g. APIs or Firebase)
 google-services.json
+
+.DS_Store
