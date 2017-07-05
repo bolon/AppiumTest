@@ -9,6 +9,11 @@ Based on <a href="https://nishantverma.gitbooks.io/appium-for-android">this supe
 3. (Optional) Set executable from Android SDK accessible from everywhere.
 4. Check if something wrong using Appium-doctor.
 5. UIAutomator already exist in Appium.
+## Update for Appium v1.6
+1. More intuitive to set capabilities
+![Capabilities Edit](http://i.imgur.com/OXbP18Z.png)
+2. UIAutomator2
+![UIAutomator](http://i.imgur.com/wrAC3OE.png)
 
 # Observation
 <h2>Espresso vs Appium</h2>
